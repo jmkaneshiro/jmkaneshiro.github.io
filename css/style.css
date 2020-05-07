@@ -317,39 +317,19 @@ ol.type li a:hover {
 	background: #526cbb;
 	color: #fff;
 }
-.isotope-item {
-	z-index: 2
-}
-.isotope-hidden.isotope-item {
-	z-index: 1
-}
-.isotope, .isotope .isotope-item {
-	/* change duration value to whatever you like */
-	-webkit-transition-duration: 0.8s;
-	-moz-transition-duration: 0.8s;
-	transition-duration: 0.8s;
-}
-.isotope-item {
-	margin-right: -1px;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-.isotope {
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transition-property: height, width;
-	-moz-transition-property: height, width;
-	transition-property: height, width;
-}
-.isotope .isotope-item {
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transition-property: -webkit-transform, opacity;
-	-moz-transition-property: -moz-transform, opacity;
-	transition-property: transform, opacity;
+
+.portfolio-items {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .portfolio-item {
 	margin: 15px 0;
+	width: 80vw;
+	-webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
 	-ms-transition: all 0.5s ease-out;
@@ -364,7 +344,6 @@ ol.type li a:hover {
 	transform: scale(1.1);
 }
 .portfolio-item .hover-bg {
-	height: 260px;
 	overflow: hidden;
 	position: relative;
 }
@@ -619,6 +598,9 @@ section {
 header .intro-text {
 	padding-top: 150px;
 	padding-bottom: 150px;
+}
+.portfolio-item {
+	width: initial;
 }
 }
 
