@@ -1087,10 +1087,16 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+}
+
+@media (min-width: 900px) {
+  body {
+    font-size: 14px;
+  }
 }
 input,
 button,
@@ -1129,9 +1135,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-#about .img-responsive {
-  padding: 20px 120px;
-}
+
 .img-rounded {
   border-radius: 6px;
 }
@@ -1617,11 +1621,10 @@ pre code {
   align-items: center;
 }
 
-.test-row {
+.flex-row {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  /* margin: 0 15px 0 15px; */
 }
 
 .flex-col {
@@ -1637,18 +1640,14 @@ pre code {
 }
 
 @media (min-width: 768px) {
-  #about .test-row {
+  #about .flex-row {
     justify-content: space-evenly;
   }
   #about .flex-col {
     width: 40%;
     margin: 20px;
   }
-  #about .flex-col:first-of-type {
-
-  }
   #about .flex-col img {
-    width: 80%;
     padding: 30px;
   }
   #about .about-text {
@@ -1659,7 +1658,11 @@ pre code {
   }
 }
 
-
+@media (min-width: 1300px) {
+  #about .flex-row {
+    width: 1275px;
+  }
+}
 
 .test-row > .skill {
   margin: 0 15px 0 15px;

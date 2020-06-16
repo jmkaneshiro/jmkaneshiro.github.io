@@ -255,7 +255,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 #skills .skill {
 	margin-bottom: 40px;
 	text-align: center;
-	padding: 0px;
+	padding: 10px;
 }
 #skills .skill h4 {
 	font-weight: 600;
