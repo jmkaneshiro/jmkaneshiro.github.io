@@ -1604,14 +1604,14 @@ pre code {
   margin-left: -15px;
 }
 
-.test-container {
+.flex-container {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
 }
 
-.test-header {
+.flex-header {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
