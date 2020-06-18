@@ -381,8 +381,9 @@ ol.type li a:hover {
 	width: 80%;
 }
 
-#portfolio strong a {
-	text-decoration: underline;
+#portfolio button {
+	font-size: 18px;
+	margin-right: 10px;
 }
 /* Achivements Section */
 #achievements {
