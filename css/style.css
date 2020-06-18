@@ -370,6 +370,15 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
+
+#portfolio figure {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#portfolio figcaption {
+	width: 80%;
+}
 /* Achivements Section */
 #achievements {
 	padding: 100px 0;
