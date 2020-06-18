@@ -13,17 +13,17 @@ h1 strong {
 	font-weight: 900;
 }
 h2 {
-	line-height: 20px;
+	line-height: 24px;
 	margin: 0;
 	color: #444;
 	font-weight: 400;
 	margin-bottom: 10px;
-	font-size: 20px;
+	font-size: 24px;
 	text-transform: uppercase;
 }
 h3, h4 {
 	color: #333;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 600;
 }
 h5 {
@@ -257,6 +257,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	text-align: center;
 	padding: 10px;
 }
+
 #skills .skill h4 {
 	font-weight: 600;
 	color: #fff;
@@ -369,6 +370,20 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
+
+#portfolio figure {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#portfolio figcaption {
+	width: 80%;
+}
+
+#portfolio strong a {
+	text-decoration: underline;
+}
 /* Achivements Section */
 #achievements {
 	padding: 100px 0;
@@ -399,13 +414,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	color: rgba(255,255,255,0.8);
 	padding: 0;
 	margin: 0;
-}
-
-.cropped {
-	width: 1em;
-	height: 1em;
-	object-fit: cover;
-	object-position: 0% 0em;
 }
 
 /* Testimonials Section */
