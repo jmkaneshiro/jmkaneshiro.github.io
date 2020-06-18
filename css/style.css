@@ -381,9 +381,15 @@ ol.type li a:hover {
 	width: 80%;
 }
 
-#portfolio button {
-	font-size: 18px;
-	margin-right: 10px;
+#portfolio figcaption > div {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+#portfolio div > a {
+	width: 48%;
+	padding: 12px 0px;
+	margin: 0;
 }
 /* Achivements Section */
 #achievements {
