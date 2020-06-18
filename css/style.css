@@ -96,6 +96,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	top: 0;
 	width: 100%
 }
+
+#nav ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0;
+}
+
+#nav a {
+	padding: 15px 0;
+}
+
 .navbar .navbar-nav {
 	display: inline-block;
 	float: none;
@@ -567,6 +579,9 @@ color: #2c3e50;
 
 /* Media Queries */
 @media(min-width:768px) {
+	#nav ul {
+		flex-direction: row;
+	}
 .intro {
 	height: 100%;
 	padding: 0;

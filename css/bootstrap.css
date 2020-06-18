@@ -1087,16 +1087,10 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
-}
-
-@media (min-width: 900px) {
-  body {
-    font-size: 14px;
-  }
 }
 input,
 button,
